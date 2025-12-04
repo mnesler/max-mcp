@@ -61,6 +61,12 @@ This document contains the breakdown of the Max-MCP project into discrete units 
     - TDD/Expert iterative loop implementation
     - State machine, failure recovery, and rollback mechanisms
 
+24. **[#24 - Implement agent Git workflow with automated branch and commit management](https://github.com/mnesler/max-mcp/issues/24)**
+    - Branch: `implement-agent-git-workflow-with-automated-branch-and-commit-management-2025-12-03-22-58`
+    - Automated branch creation with agent name, feature, and datetime
+    - Consistent commit conventions with agent attribution
+    - Parallel work coordination and merge strategies
+
 ### API & Backend
 11. **[#11 - Create FastAPI backend service](https://github.com/mnesler/max-mcp/issues/11)**
     - Branch: `create-fastapi-backend-service-2025-12-03-22-39`
@@ -136,6 +142,7 @@ High Priority (Core functionality):
 - Core agents (#4, #5, #6)
 - Pipeline orchestration (#10, #23)
 - Workflow engine (#23)
+- Agent Git workflow (#24)
 - Backend API (#11, #22)
 - Usage tracking (#21, #22)
 

@@ -100,6 +100,19 @@ This document contains the breakdown of the Max-MCP project into discrete units 
     - Branch: `implement-authentication-and-authorization-2025-12-03-22-48`
     - JWT/OAuth, RBAC, API key management, 2FA
 
+### Usage Tracking & Analytics
+21. **[#21 - Add database fields for model usage tracking](https://github.com/mnesler/max-mcp/issues/21)**
+    - Branch: `add-database-fields-for-model-usage-tracking-2025-12-03-22-51`
+    - Track AI model usage by user and session
+    - Cost calculation and quota management tables
+    - Support for multiple model providers
+
+22. **[#22 - Implement model usage tracking backend service](https://github.com/mnesler/max-mcp/issues/22)**
+    - Branch: `implement-model-usage-tracking-backend-service-2025-12-03-22-52`
+    - Real-time usage tracking and reporting APIs
+    - Quota enforcement and cost calculations
+    - WebSocket updates and caching layer
+
 ## Development Workflow
 
 Each unit of work follows this pattern:
@@ -112,11 +125,12 @@ Each unit of work follows this pattern:
 ## Priority Order
 
 High Priority (Core functionality):
-- Database setup (#1, #2)
+- Database setup (#1, #2, #21)
 - MCP server foundation (#3)
 - Core agents (#4, #5, #6)
 - Pipeline orchestration (#10)
-- Backend API (#11)
+- Backend API (#11, #22)
+- Usage tracking (#21, #22)
 
 Medium Priority (Enhanced functionality):
 - Additional agents (#7, #8, #9)

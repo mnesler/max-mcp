@@ -82,6 +82,12 @@ This document contains the breakdown of the Max-MCP project into discrete units 
     - Branch: `implement-timeout-and-notification-system-2025-12-03-22-41`
     - Timeout management, email/Slack notifications
 
+25. **[#25 - Implement comprehensive agent activity tracking and performance monitoring](https://github.com/mnesler/max-mcp/issues/25)**
+    - Branch: `implement-comprehensive-agent-activity-tracking-and-performance-monitoring-2025-12-04-07-17`
+    - Track start/end time for each agent's work
+    - Monitor task assignments and completions
+    - Performance metrics and resource usage tracking
+
 14. **[#14 - Create metrics collection and analytics service](https://github.com/mnesler/max-mcp/issues/14)**
     - Branch: `create-metrics-collection-and-analytics-service-2025-12-03-22-42`
     - Performance metrics, trend analysis, benchmarking
@@ -143,6 +149,7 @@ High Priority (Core functionality):
 - Pipeline orchestration (#10, #23)
 - Workflow engine (#23)
 - Agent Git workflow (#24)
+- Agent activity tracking (#25)
 - Backend API (#11, #22)
 - Usage tracking (#21, #22)
 

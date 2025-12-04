@@ -55,6 +55,12 @@ This document contains the breakdown of the Max-MCP project into discrete units 
     - Branch: `implement-agent-orchestration-and-pipeline-system-2025-12-03-22-38`
     - Pipeline execution engine, inter-agent communication
 
+23. **[#23 - Create end-to-end workflow orchestration for agent pipeline](https://github.com/mnesler/max-mcp/issues/23)**
+    - Branch: `create-end-to-end-workflow-orchestration-for-agent-pipeline-2025-12-03-22-54`
+    - Complete workflow from issue to deployment
+    - TDD/Expert iterative loop implementation
+    - State machine, failure recovery, and rollback mechanisms
+
 ### API & Backend
 11. **[#11 - Create FastAPI backend service](https://github.com/mnesler/max-mcp/issues/11)**
     - Branch: `create-fastapi-backend-service-2025-12-03-22-39`
@@ -128,7 +134,8 @@ High Priority (Core functionality):
 - Database setup (#1, #2, #21)
 - MCP server foundation (#3)
 - Core agents (#4, #5, #6)
-- Pipeline orchestration (#10)
+- Pipeline orchestration (#10, #23)
+- Workflow engine (#23)
 - Backend API (#11, #22)
 - Usage tracking (#21, #22)
 
